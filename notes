@@ -1,0 +1,100 @@
+html,
+body
+ {
+    background-color: rgb(80, 79, 79, .2);
+    height: auto;
+    width: 100%;
+}
+
+.chart-wrap {
+    margin: auto;
+}
+
+#lineChart {
+    background-color: rgb(226, 223, 223) !important;
+    box-shadow: 5px 5px 5px rgb(161, 158, 158);
+    border: 3px solid rgb(30, 144, 255);
+    height: 400px !important;
+    width: 600px !important;
+    position: absolute;
+    padding: 10px;
+}
+
+#lineChart-Moisture {
+    background-color: rgb(226, 223, 223) !important;
+    box-shadow: 5px 5px 5px rgb(161, 158, 158);
+    border: 3px solid rgb(30, 144, 255);
+    height: 400px !important;
+    width: 600px !important;
+    position: absolute;
+    padding: 10px;
+}
+
+.soilTemp {
+    position: relative;
+    top: 70mm;
+    left: 15mm;
+}
+
+.soilMoisture {
+    position: relative;
+    top: 70mm;
+    left: 200mm;
+}
+
+.homeTitle {
+    position: relative;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(97, 97, 97);
+    font-size: 67px;
+    margin: 0;
+    top: 8mm;
+}
+
+.subTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.subTitle-span {
+    font-family: 'Nunito+San';
+    color: rgb(213, 225, 56);
+}
+
+.header {
+    height: 159px;
+    width: 100%;
+    background-color: rgb(30, 144, 255);
+    box-shadow: 5px 5px 5px rgb(161, 158, 158);
+    border-bottom: 3px solid rgb(213, 225, 56);
+    border-top: 3px solid rgb(213, 225, 56);
+
+
+}
+
+.logo {
+    position: relative;
+    top: -20mm;
+    left: 5mm;
+    height: 140px;
+    width: 100px;
+}
+
+.btnRefresh {
+    position: relative;
+    height: 40px;
+    width: 128px;
+    border: 3px solid rgb(213, 225, 56);
+    background-color: rgb(30, 144, 255);
+    top: 142mm;
+    left: 174mm;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgb(161, 158, 158);
+    text-shadow: 2px 2px 2px rgb(97, 97, 97);
+}
+
